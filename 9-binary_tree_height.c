@@ -19,6 +19,12 @@ size_t binary_tree_height(const binary_tree_t *tree)
 */
 int maxDepth(const binary_tree_t *node)
 {
+	if (node == NULL)
+	{
+		return (0);
+	}
+	else
+	{
 	/* compute the depth of each subtree */
 		int lDepth = maxDepth(node->left);
 		int rDepth = maxDepth(node->right);
@@ -32,4 +38,5 @@ int maxDepth(const binary_tree_t *node)
 		{
 			return (rDepth + 1);
 		}
+	}
 }
