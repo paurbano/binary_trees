@@ -7,7 +7,7 @@
 */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 {
-	if (tree)
+	if (tree && func)
 	{
 		/*printf("%d\n",tree->n);*/
 		func(tree->n);
