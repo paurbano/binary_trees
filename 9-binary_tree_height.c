@@ -1,5 +1,4 @@
 #include "binary_trees.h"
-int maxDepth(const binary_tree_t *node);
 /**
 * binary_tree_height - measures the height of a binary tree
 * @tree: pointer to node root
@@ -26,7 +25,11 @@ int maxDepth(const binary_tree_t *node)
 
 		/* use the larger one */
 		if (lDepth > rDepth)
+		{
 			return (lDepth + 1);
-		if (lDepth < rDepth)
+		}
+		else
+		{
 			return (rDepth + 1);
+		}
 }
