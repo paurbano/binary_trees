@@ -146,49 +146,15 @@ alex@/tmp/binary_trees$
 <div data-role="task1470" data-position="4">
               <div class=" clearfix gap" id="task-1470">
 <span id="user_id" data-id="1283"></span>
+<h4 class="task">
+3. Delete
+  <span class="alert alert-warning mandatory-optional">
+	mandatory
+  </span>
+</h4>
 
-    <div class="student_task_controls">
-
-      <!-- button Done -->
-        <button class="student_task_done btn btn-default yes" data-task-id="1470">
-          <span class="no"><i class="fa fa-square-o"></i></span>
-          <span class="yes"><i class="fa fa-check-square-o"></i></span>
-          <span class="pending"><i class="fa fa-spinner fa-pulse"></i></span>
-          Done<span class="no pending">?</span><span class="yes">!</span>
-        </button>
-        <br>
-
-      <!-- button Help! -->
-      <button class="users_done_for_task btn btn-default btn-default" data-task-id="1470" data-project-id="270" data-toggle="modal" data-target="#task-1470-users-done-modal">
-        Help
-      </button>
-      
-
-
-    </div>
-
-  <h4 class="task">
-    3. Delete
-      <span class="alert alert-warning mandatory-optional">
-        mandatory
-      </span>
-  </h4>
-
-  
-
-  <!-- Progress vs Score -->
-    <div class="task_progress_score_bar light_text" data-task-id="1470" data-correction-id="84270">
-      <div class="task_progress_bar" style="width: 100%;">
-        <div class="task_score_bar" style="width: 100%;">
-        </div>
-      </div>
-      <div class="task_progress_score_text">
-        Score: <span class="task_score_value">100.00%</span> (<span class="task_progress_value">Checks completed: 100.00%</span>)
-      </div>
-    </div>
-
-  <!-- Task Body -->
-  <p>Write a function that deletes an entire binary tree</p>
+<!-- Task Body -->
+<p>Write a function that deletes an entire binary tree</p>
 
 <ul>
 <li>Prototype: <code>void binary_tree_delete(binary_tree_t *tree);</code></li>
@@ -245,11 +211,11 @@ alex@/tmp/binary_trees$
   <!-- Task URLs -->
 
   <!-- Github information -->
-    <p class="sm-gap"><strong>Repo:</strong></p>
-    <ul>
-      <li>GitHub repository: <code>binary_trees</code></li>
-        <li>File: <code>3-binary_tree_delete.c</code></li>
-    </ul>
+<p class="sm-gap"><strong>Repo:</strong></p>
+<ul>
+  <li>GitHub repository: <code>binary_trees</code></li>
+	<li>File: <code>3-binary_tree_delete.c</code></li>
+</ul>
 
 </div>
 
